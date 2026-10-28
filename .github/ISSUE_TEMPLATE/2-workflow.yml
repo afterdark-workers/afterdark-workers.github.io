@@ -10,6 +10,13 @@ body:
       description: Attach the workflow .json (drag it in), or link to where it's shared.
     validations:
       required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Sharing
+      options:
+        - label: I made this workflow, or its license lets it be shared — the worker made from it is a public repo.
+          required: true
   - type: textarea
     id: models
     attributes:
