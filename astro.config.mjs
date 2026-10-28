@@ -15,6 +15,7 @@ export default defineConfig({
 				{ label: 'Models', slug: 'models' },
 				{ label: 'Run on RunPod', slug: 'runpod' },
 				{ label: 'Run on Modal', slug: 'modal' },
+				{ label: 'Use with Cobalt Pear', slug: 'cobalt-pear' },
 			],
 		}),
 	],

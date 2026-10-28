@@ -13,4 +13,6 @@ The model is baked into the image and checked by SHA-256 at build time.
 
 Every repo has a `pack.json`, so [Cobalt Pear](https://cobaltpear.github.io/) — a one-page web app — can drive it: add the repo URL, your endpoint ID and API key, then just type.
 
+- **[Use with Cobalt Pear](cobalt-pear/)** — what's different for these workers there.
+
 You download each model yourself (Civitai models with your own account) and are responsible for following its license.

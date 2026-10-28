@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Questions and bugs
+    url: https://github.com/afterdark-workers/afterdark-workers.github.io/discussions
+    about: Ask in Discussions — screenshots welcome, just paste them in.
   - name: Docs
     url: https://afterdark-workers.github.io/
     about: Every model and how to run it.
