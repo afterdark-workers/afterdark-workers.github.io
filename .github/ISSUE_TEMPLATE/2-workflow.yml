@@ -1,0 +1,27 @@
+name: Turn my workflow into an API
+description: A ComfyUI workflow you'd like to run as a serverless worker.
+title: "Workflow: "
+labels: [request-workflow]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: The workflow
+      description: Attach the workflow .json (drag it in), or link to where it's shared.
+    validations:
+      required: true
+  - type: textarea
+    id: models
+    attributes:
+      label: Models and custom nodes it uses
+      description: Links if you have them — we look up the rest.
+  - type: dropdown
+    id: service
+    attributes:
+      label: GPU service you'd run it on
+      options: [RunPod, Modal, Another one (say which below), Not sure]
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: What goes in (a prompt, a picture…) and what should come out.

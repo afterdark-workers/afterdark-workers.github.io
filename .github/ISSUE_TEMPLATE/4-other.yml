@@ -1,0 +1,11 @@
+name: Something else
+description: A feature, an engine, a bug — anything.
+labels: [request-other]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like?
+      description: Screenshots welcome — just paste them in.
+    validations:
+      required: true

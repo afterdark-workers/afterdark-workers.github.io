@@ -1,0 +1,16 @@
+name: Add a GPU service
+description: A service you'd like to run the workers on, besides RunPod and Modal.
+title: "Service: "
+labels: [request-service]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Service name and link
+      placeholder: https://…
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else

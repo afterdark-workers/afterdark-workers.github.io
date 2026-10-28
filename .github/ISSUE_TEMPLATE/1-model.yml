@@ -1,0 +1,22 @@
+name: Add a model
+description: A model you'd like a ready-to-build worker for.
+title: "Model: "
+labels: [request-model]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Model link
+      description: The model's page on Civitai or Hugging Face.
+      placeholder: https://civitai.com/models/…
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: GPU service you'd run it on
+      options: [RunPod, Modal, Another one (say which below), Not sure]
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
