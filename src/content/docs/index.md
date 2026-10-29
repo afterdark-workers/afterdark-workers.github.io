@@ -3,6 +3,8 @@ title: afterdark-workers
 description: Ready-to-build serverless GPU workers for 18+ image and video models from Civitai and Hugging Face.
 ---
 
+> 🔞 **Adult (18+) · NSFW** — workers for uncensored adult image and video models.
+
 Ready-to-build serverless GPU workers for 18+ image and video models from Civitai and Hugging Face.
 Each repo is a template: make a private copy, paste your Civitai token (Hugging Face ones need none), and build it on a GPU service.
 The model is baked into the image and checked by SHA-256 at build time.
